@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+   <!-- 선택되지 않았을 때 background로 이동하는 selector -->
+    <item
+        android:state_selected="false"
+        android:drawable="@drawable/tab_bg_off" />
+    <!-- 선택되었을 때 background로 이동하는 selector -->
+    <item
+        android:state_selected="true"
+        android:drawable="@drawable/tab_bg_on" />
+</selector>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <include
+        android:id="@+id/upload_toolbar"
+        layout="@layout/upload_toolbar" />
+
+
+    <ImageView
+        android:id="@+id/select_img"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/upload_toolbar" />
+
+    <EditText
+        android:id="@+id/et_letter"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@null"
+        android:gravity="start"
+        android:hint="설명을 입력해주세요.\n봉사활동 기관, 활동 시간, 가정 내 분리수거 항목\n기입 필수"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/select_img"
+        app:layout_constraintVertical_bias="0.058" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

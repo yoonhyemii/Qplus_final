@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_ranking1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:paddingBottom="5dp"
+        android:src="@drawable/rankcheck"
+        app:layout_constraintEnd_toStartOf="@+id/iv_ranking3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/iv_ranking2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_ranking2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="32dp"
+            android:paddingBottom="5dp"
+            android:src="@drawable/rankcheck"
+            app:layout_constraintEnd_toStartOf="@+id/iv_ranking1"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/iv_ranking1" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_ranking3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:paddingBottom="5dp"
+            android:src="@drawable/rankcheck"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/iv_ranking1"
+            app:layout_constraintTop_toTopOf="@+id/iv_ranking2" />
+
+        <Button
+            android:id="@+id/first"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="76dp"
+            android:background="@drawable/black_radius"
+            android:text="1"
+            android:textStyle="bold"
+            app:backgroundTint="#F8FF3B"
+            app:layout_constraintEnd_toEndOf="@+id/iv_ranking1"
+            app:layout_constraintStart_toStartOf="@+id/iv_ranking1"
+            app:layout_constraintTop_toTopOf="@+id/iv_ranking1" />
+
+        <Button
+            android:id="@+id/second"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="56dp"
+            android:background="@drawable/black_radius"
+            android:text="3"
+            android:textStyle="bold"
+            app:backgroundTint="#63DA68"
+            app:layout_constraintEnd_toEndOf="@+id/iv_ranking3"
+            app:layout_constraintStart_toStartOf="@+id/iv_ranking3"
+            app:layout_constraintTop_toTopOf="@+id/iv_ranking3" />
+
+        <Button
+            android:id="@+id/third"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="56dp"
+            android:background="@drawable/black_radius"
+            android:text="2"
+            android:textStyle="bold"
+            app:backgroundTint="#63DA68"
+            app:layout_constraintEnd_toEndOf="@+id/iv_ranking2"
+            app:layout_constraintStart_toStartOf="@+id/iv_ranking2"
+            app:layout_constraintTop_toTopOf="@+id/iv_ranking2" />
+
+        <View
+            android:id="@+id/view10"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="96dp"
+            android:background="#cccccc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/first" />
+
+    <TextView
+        android:id="@+id/tv_second_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/iv_ranking2"
+        app:layout_constraintStart_toStartOf="@+id/iv_ranking2"
+        app:layout_constraintTop_toBottomOf="@+id/iv_ranking2" />
+
+    <TextView
+        android:id="@+id/tv_second_stamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/iv_ranking2"
+        app:layout_constraintStart_toStartOf="@+id/iv_ranking2"
+        app:layout_constraintTop_toBottomOf="@+id/iv_ranking2" />
+
+    <TextView
+        android:id="@+id/tv_second_grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="TextView"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/iv_ranking2"
+        app:layout_constraintStart_toStartOf="@+id/iv_ranking2"
+        app:layout_constraintTop_toBottomOf="@+id/iv_ranking2" />
+
+    <TextView
+        android:id="@+id/tv_first_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/iv_ranking1"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="@+id/iv_ranking1"
+        app:layout_constraintTop_toTopOf="@+id/tv_second_name" />
+
+    <TextView
+        android:id="@+id/tv_first_stamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/iv_ranking1"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="@+id/iv_ranking1"
+        app:layout_constraintTop_toTopOf="@+id/tv_second_name" />
+
+    <TextView
+        android:id="@+id/tv_first_grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="TextView"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/iv_ranking1"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="@+id/iv_ranking1"
+        app:layout_constraintTop_toTopOf="@+id/tv_second_name" />
+
+    <TextView
+        android:id="@+id/tv_third_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/iv_ranking3"
+        app:layout_constraintStart_toStartOf="@+id/iv_ranking3"
+        app:layout_constraintTop_toTopOf="@+id/tv_first_name" />
+
+    <TextView
+        android:id="@+id/tv_third_stamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/iv_ranking3"
+        app:layout_constraintStart_toStartOf="@+id/iv_ranking3"
+        app:layout_constraintTop_toTopOf="@+id/tv_first_name" />
+
+    <TextView
+        android:id="@+id/tv_third_grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="TextView"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/iv_ranking3"
+        app:layout_constraintStart_toStartOf="@+id/iv_ranking3"
+        app:layout_constraintTop_toTopOf="@+id/tv_first_name" />
+
+
+    <ListView
+        android:id="@+id/lv_post"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view10"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

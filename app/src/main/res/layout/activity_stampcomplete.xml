@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#CDACEABE">
+
+    <include layout="@layout/stampcomplete_toolbar"
+        android:id="@+id/toolbar"/>
+
+    <ImageView
+        android:id="@+id/stampic"
+        android:layout_width="174dp"
+        android:layout_height="198dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:srcCompat="@drawable/stampic" />
+
+    <ImageView
+        android:id="@+id/dojang"
+        android:layout_width="219dp"
+        android:layout_height="204dp"
+        android:layout_marginTop="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:srcCompat="@drawable/dojang" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="스탬프 1개가 적립되었습니다."
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dojang" />
+
+
+
+    <!-- <View
+        android:id="@+id/view6"
+        android:layout_width="380dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/roundbox"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.715" />
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="380dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/roundgray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.523" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="제공 혜택"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+    <ListView
+        android:id="@+id/mini_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="@+id/view6"
+        android:layout_marginTop="500dp"
+        android:layout_marginBottom="100dp"/>
+
+    <Button
+        android:id="@+id/see_market"
+        android:layout_width="190dp"
+        android:layout_height="44dp"
+        android:background="@drawable/buttonshape"
+        android:layout_marginTop="24dp"
+        android:text="쿠폰보기"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mini_listview" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

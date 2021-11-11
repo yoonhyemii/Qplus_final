@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.comunity.CommunityListViewItem">
+
+    <ImageView
+        android:id="@+id/newsImg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/newsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/applegothicb"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintStart_toEndOf="@+id/newsImg"
+        app:layout_constraintTop_toTopOf="@+id/newsImg"
+        tools:text="NewsTitle" />
+
+    <TextView
+        android:id="@+id/newsContents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#272727"
+        android:textSize="12sp"
+        android:fontFamily="@font/applegothicm"
+        app:layout_constraintBottom_toBottomOf="@+id/newsImg"
+        app:layout_constraintStart_toStartOf="@+id/newsTitle"
+        app:layout_constraintTop_toBottomOf="@+id/newsTitle"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="Plastic Contents" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">지큐</string>
+    <string name="title_home">Home</string>
+    <string name="title_ranking">Ranking</string>
+    <string name="title_market">Market</string>
+    <string name="title_community">Community</string>
+    <string name="title_user">User</string>
+    <string name="fragment_home">fragment_home</string>
+    <string name="fragment_ranking">fragment_ranking</string>
+    <string name="fragment_market">fragment_market</string>
+    <string name="fragment_comunity">fragment_comunity</string>
+    <string name="fragment_user">fragment_user</string>
+    <string name="single_use_title">목표 달성 일회용품 줄이기</string>
+    <string name="single_use_commant">스탬프를 적립하여 원하는 상품을 획득하세요</string>
+    <string name="user_pass">변경할 비밀번호를 입력하세요.</string>
+    <string name="user_curpass">현재 비밀번호를 입력하세요.</string>
+    <string name="market_donate">기부 할 금액을 입력해주세요.</string>
+    <string name="home_qrcode">적립하려는 시설의 담당자에게 "\n" 위의  QR코드를 보여주세요.</string>
+    <string name="community_activity">봉사활동을 통한 "\n" 환경 보호</string>
+    <string name="community_home">집 안에서 하는 "\n"환경 보호</string>
+    <string name="community_news">지큐 뉴스레터 "\n"@환경지킴이</string>
+    <string name="volunteer_page_text">봉사활동 인증서를 업로드 해주세요 "\n"활동 1시간 당 스탬프 1개가 적립됩니다.</string>
+    <string name="sorting_page_text">오늘은 플라스틱의 날!  "\n"플라스틱 절약을 한 모습을 업로드하면  "\n"스탬프 1개가 적립됩니다.</string>
+
+
+</resources>
